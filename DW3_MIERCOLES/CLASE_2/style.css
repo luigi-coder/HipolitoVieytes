@@ -1,0 +1,92 @@
+#tienda {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 250px;
+}
+
+.card .container-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img {
+    height: 200px;
+}
+
+
+.card-body {
+    text-align: center;
+    padding: 20px;
+}
+
+.card-title {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card-subtitle {
+    color: #777;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.card-price {
+    color: #ff8800;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #ff8800;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: all 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #ffbb33;
+    transform: scale(1.05);
+}
+
+button {
+    background-color: #ff8800;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: all 0.2s ease;
+    margin-left: 28px;
+}
+
+
+.prueba{
+    background-color: #333;
+}
