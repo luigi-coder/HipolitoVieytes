@@ -13,6 +13,22 @@ function print(arr){
     }
 } */
 
+
+/* let n2 = +prompt("Ingrese un numero");
+let n3 = +prompt("Ingrese un numero"); 
+
+console.log(n2 + n3);
+ */
+
+
+
+
+
+
+
+
+
+
 const nombres = [
     "Jose", 
     "Federico",
@@ -87,7 +103,6 @@ class Automovil {
     }
 }
 
-
 const array = [
     new Automovil("Ford", "Fiesta", 120000, auto),
     new Automovil("Wolkswagen", "Gol", 130500, auto2),
@@ -139,8 +154,6 @@ function renderizar(array) {
             
             agregarAlCarrito(elemento);
         });
-     
-    
     })
 }
 
@@ -214,5 +227,45 @@ console.log(resultado);
 
 
 
+
+
+let numbers = [1, 5, 10, 15];
+let doubles = numbers.map((x)=> {
+   return x * 2;
+});
+
+console.log(doubles);
+
+
+const personas = [
+    {
+      nombre: 'Luis',
+      edad: 22,
+    },
+    {
+      nombre: 'Juan',
+      edad: 50,
+    },
+    {
+      nombre: 'David',
+      edad: 77,
+    },
+  ];
+  
+// Esta funcion sirve para acceder a un objeto
+const regresarNombre = (persona)=> {
+    console.log(persona.nombre);
+};
+// Agarra al array y recorre a cada elemento 
+//map();
+
+const nombreDePersonas = personas.map((elemento)=> elemento.nombre);
+
+for (let i = 0; i < personas.length; i++) {
+   
+    regresarNombre(personas[2]);
+}
+
+document.write(nombreDePersonas);
 
 
