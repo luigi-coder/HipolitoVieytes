@@ -1,0 +1,21 @@
+1er paso npm init 
+
+package name: (clase_3) nicole
+version: (1.0.0) 
+description: mi primer modulo
+entry point: (index.js) app.js 
+test command: 
+git repository: 
+keywords: 
+author: Nombre Apellido
+license: (ISC) 
+
+2do paso npm install cowsay
+
+3er paso 
+
+a) crear una constante
+
+b) usar el metodo say de el modulo cowsay
+
+c) imprimirlo en consola
