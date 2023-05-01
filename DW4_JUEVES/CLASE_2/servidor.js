@@ -77,22 +77,19 @@ const servidorLocal = http.createServer((req, res)=>{
     }else if(req.method === 'POST' && req.url === '/bienvenido'){
 
         let name = '';
-
+    
         req.on('data', (data) => {
             name += data.toString();
         })
-
+    
         req.on('end',()=>{
-
+    
             console.log(`Nombre del usuario: ${name}`)
-
+    
             res.writeHead(200, { 'Content-type': 'text/html'});
-            res.writable(`<h1>Bienvenido/a a APV 2021, ${name}!</h1>`);
+            res.write(`<h1>Bienvenido/a a APV 2021, ${name}!</h1>`);
             res.end();
         })
-    }else {
-        res.write("404");
-        res.end();
     }
 });
 
