@@ -12,4 +12,8 @@
     "workbench.colorTheme": "SynthWave '84",
     "workbench.iconTheme": "sweet-vscode-icons",
     "synthwave84.brightness": 0.90,
+    // ponerle colores a los comentarios
+    "editor.tokenColorCustomizations": {
+        "comments": "#ff00ae"
+    },
 }
