@@ -1,0 +1,20 @@
+{{> navegacion }}
+
+<h1>{{ nombre }}</h1>
+<p>{{ apellido }}</p>
+
+<p>{{materias}}</p>
+
+{{#if materias}}
+  <p>El alumno tiene materias</p>
+    <ul>
+        {{#each materias}}
+    <li>{{this}}</li>
+        {{/each}}
+    </ul>
+
+{{else}}
+  <p>El alumno no tiene materias</p>
+{{/if}}
+
+
