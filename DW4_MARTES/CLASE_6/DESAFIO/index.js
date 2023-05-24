@@ -27,7 +27,12 @@ app.get('/', (req, res) => {
 app.post('/submit', (req, res) => {
   const { name, lastName, email, message } = req.body;
   
-  const data = `Nombre: ${name}\nApellido: ${lastName}\nE-mail: ${email}\nMensaje: ${message}\n\n`;
+  const data = `
+  Nombre: ${name}
+  Apellido: ${lastName}
+  E-mail: ${email}
+  Mensaje: ${message}
+  `;
   
   fs.appendFile('data.txt', data, (err) => {
     if (err) {
