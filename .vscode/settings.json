@@ -7,13 +7,12 @@
     "terminal.integrated.fontSize": 16,
     "editor.minimap.enabled": false,
     "vscode-mysql.ressulTheme": "dark",
-    "window.zoomLevel": -2,
-    "workbench.colorTheme": "Dark SynthWave '84",
+    "window.zoomLevel": 1,
     "workbench.colorTheme": "SynthWave '84",
-    //"workbench.iconTheme": "sweet-vscode-icons",
+    "workbench.iconTheme": "sweet-vscode-icons",
     "synthwave84.brightness": 0.90,
     // ponerle colores a los comentarios
     "editor.tokenColorCustomizations": {
-        "comments": "#508f11"
-    },
+        "comments": "#ffee00"
+    }, 
 }
